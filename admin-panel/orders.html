@@ -1,0 +1,106 @@
+<div class = 'orders-page'>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Pending')" id="defaultOpen">Pending</button>
+        <button class="tablinks" onclick="openCity(event, 'Active')">Active</button>
+        <button class="tablinks" onclick="openCity(event, 'Delivered')">Delivered</button>
+        <button class="tablinks" onclick="openCity(event, 'Cancelled')">Cancelled</button>
+      </div>
+      
+      <!-- Tab content -->
+      <div id="Pending" class="tabcontent">
+        
+        <table class="table orders-table">
+            <thead>
+              <tr>
+                <th scope="col">Order Id</th>
+                <th scope="col">Merchant</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Scheduled time</th>
+                <th scope="col">Payment method</th>
+                <th scope="col">Address</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Delivery mode</th>
+                <th scope="col">Order Status</th>
+              </tr>
+            </thead>
+            <tbody class="orders-content">
+              
+            </tbody>
+          </table>
+      </div>
+      
+      <div id="Active" class="tabcontent">
+        <table class="table orders-table">
+            <thead>
+              <tr>
+                <th scope="col">Order Id</th>
+                <th scope="col">Merchant</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Scheduled time</th>
+                <th scope="col">Payment method</th>
+                <th scope="col">Address</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Delivery mode</th>
+                <th scope="col">Order Status</th>
+              </tr>
+            </thead>
+            <tbody class="orders-content2">
+              
+            </tbody>
+          </table>
+      </div>
+      
+      <div id="Delivered" class="tabcontent">
+        <table class="table orders-table">
+            <thead>
+              <tr>
+                <th scope="col">Order Id</th>
+                <th scope="col">Merchant</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Scheduled time</th>
+                <th scope="col">Payment method</th>
+                <th scope="col">Address</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Delivery mode</th>
+                <th scope="col">Order Status</th>
+              </tr>
+            </thead>
+            <tbody class="orders-content3">
+              
+            </tbody>
+          </table>
+      </div>
+
+      <div id="Cancelled" class="tabcontent">
+        <table class="table orders-table">
+            <thead>
+              <tr>
+                <th scope="col">Order Id</th>
+                <th scope="col">Merchant</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Scheduled time</th>
+                <th scope="col">Payment method</th>
+                <th scope="col">Address</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Delivery mode</th>
+                <th scope="col">Order Status</th>
+              </tr>
+            </thead>
+            <tbody class="orders-content4">
+              
+            </tbody>
+          </table>
+      </div>
+
+    
+
+
+
+      <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+
+</div>
